@@ -5,7 +5,7 @@ button:focus {
     outline: none;
 }
 
-#fieldOne{
+#fieldOne {
   display: inline-block;
   position: relative;
   margin: 30px 30px 75px 30px;
@@ -32,24 +32,21 @@ button:focus {
    background-image: url("../images/hot2.png");
    background-size: cover;
    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .msthd{
     display: block;
-    /* float: left; */
-    margin-top: 20px;
     margin-left: 30px;
     color: white;
     font-size: 45px;
     font-weight: bold;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-
 }
 
-.note {
-  display: block;
-  background-color: aqua;
+.cards {
+  display: flex;
+  justify-content: space-between;
   border: 1px solid black;
   border-radius: 07px;
+  flex-wrap: wrap;
 }
